@@ -1,0 +1,60 @@
+= Poly-Proof MCP Roadmap
+:toc:
+:toclevels: 2
+:icons: font
+
+== Current Status
+
+[IMPORTANT]
+====
+*Phase 0: Specification Pending*
+
+The project specification has not yet been uploaded. This roadmap outlines the anticipated development phases once the specification is available.
+====
+
+== Development Phases
+
+=== Phase 0: Specification [CURRENT]
+
+* [ ] Upload project specification document
+* [ ] Define scope and purpose of poly-proof system
+* [ ] Document MCP server capabilities and tools
+* [ ] Establish API contracts and data formats
+* [ ] Identify target proof systems/backends
+
+=== Phase 1: Foundation
+
+* [ ] Initialize Deno project structure
+* [ ] Set up Guix/Nix development environment
+* [ ] Implement MCP server skeleton
+* [ ] Define core type system (ReScript or Rust)
+* [ ] Create basic tool registration
+
+=== Phase 2: Core Implementation
+
+* [ ] Implement proof system integration
+* [ ] Build MCP tool handlers
+* [ ] Add resource providers
+* [ ] Create prompt templates
+* [ ] Develop validation logic
+
+=== Phase 3: Testing & Documentation
+
+* [ ] Write unit tests
+* [ ] Add integration tests
+* [ ] Complete API documentation
+* [ ] Create usage examples
+* [ ] Publish to package registries
+
+=== Phase 4: Production Readiness
+
+* [ ] Security audit
+* [ ] Performance optimization
+* [ ] Container image (Wolfi-based)
+* [ ] Release v1.0.0
+
+== Contributing
+
+See link:CONTRIBUTING.md[CONTRIBUTING.md] for guidelines.
+
+Once the specification is uploaded, issues will be created for Phase 1 tasks.
